@@ -73,17 +73,17 @@ export default function AdminLogin() {
                     <FormItem>
                       <FormLabel>Username</FormLabel>
                       <FormControl>
-                        <Input 
-                          placeholder="Enter username" 
-                          className="h-12" 
-                          {...field} 
+                        <Input
+                          placeholder="Enter username"
+                          className="h-12"
+                          {...field}
                         />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
                   )}
                 />
-                
+
                 <FormField
                   control={form.control}
                   name="password"
@@ -91,20 +91,20 @@ export default function AdminLogin() {
                     <FormItem>
                       <FormLabel>Password</FormLabel>
                       <FormControl>
-                        <Input 
+                        <Input
                           type="password"
-                          placeholder="Enter password" 
-                          className="h-12" 
-                          {...field} 
+                          placeholder="Enter password"
+                          className="h-12"
+                          {...field}
                         />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
                   )}
                 />
-                
-                <Button 
-                  type="submit" 
+
+                <Button
+                  type="submit"
                   size="lg"
                   disabled={mutation.isPending}
                   className="w-full bg-primary hover:bg-primary/90"
@@ -120,14 +120,6 @@ export default function AdminLogin() {
                 </Button>
               </form>
             </Form>
-
-            <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-              <p className="text-sm text-gray-600">
-                <strong>Demo Credentials:</strong><br />
-                Username: admin<br />
-                Password: admin123
-              </p>
-            </div>
           </CardContent>
         </Card>
       </div>

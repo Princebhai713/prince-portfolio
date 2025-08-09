@@ -191,11 +191,11 @@ export default function Contact() {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Mail className="w-6 h-6 mr-4" />
-                  <span>alex.johnson@email.com</span>
+                  <span>pb6620113@email.com</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="w-6 h-6 mr-4" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+91 8176899837</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="w-6 h-6 mr-4" />

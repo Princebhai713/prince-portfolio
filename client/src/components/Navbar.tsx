@@ -30,7 +30,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <Link href="/">
-              <h1 className="text-xl font-bold text-primary cursor-pointer">Alex Johnson</h1>
+              <h1 className="text-xl font-bold text-primary cursor-pointer">Prince Yadav</h1>
             </Link>
           </div>
 

@@ -18,7 +18,7 @@ export default function Footer() {
                  className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-colors">
                 <i className="fab fa-github text-xl"></i>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/prince-yadav-Portfolio/" target="_blank" rel="noopener noreferrer"
                  className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-colors">
                 <i className="fab fa-linkedin text-xl"></i>
               </a>
@@ -26,7 +26,7 @@ export default function Footer() {
                  className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-colors">
                 <i className="fab fa-twitter text-xl"></i>
               </a>
-              <a href="mailto:alex.johnson@email.com"
+              <a href="mailto:pb6620113@email.com"
                  className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-colors">
                 <i className="fas fa-envelope text-xl"></i>
               </a>

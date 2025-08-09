@@ -1,23 +1,23 @@
 import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "@/components/ui/toaster";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/not-found";
-import Home from "@/pages/Home";
-import About from "@/pages/About";
-import Skills from "@/pages/Skills";
-import Projects from "@/pages/Projects";
-import Blog from "@/pages/Blog";
-import Resume from "@/pages/Resume";
-import Contact from "@/pages/Contact";
-import AdminLogin from "@/pages/admin/Login";
-import AdminDashboard from "@/pages/admin/Dashboard";
-import ManageProjects from "@/pages/admin/ManageProjects";
-import ManageBlogs from "@/pages/admin/ManageBlogs";
-import ViewMessages from "@/pages/admin/ViewMessages";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import { Toaster } from "./components/ui/toaster";
+import { TooltipProvider } from "./components/ui/tooltip";
+import NotFound from "./pages/not-found";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
+import Blog from "./pages/Blog";
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
+import AdminLogin from "./pages/admin/Login";
+import AdminDashboard from "./pages/admin/Dashboard";
+import ManageProjects from "./pages/admin/ManageProjects";
+import ManageBlogs from "./pages/admin/ManageBlogs";
+import ViewMessages from "./pages/admin/ViewMessages";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function Router() {
   return (
